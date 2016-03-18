@@ -7,9 +7,9 @@ gulp.task('autoprefixer', function () {
     var sourcemaps   = require('gulp-sourcemaps');
     var autoprefixer = require('autoprefixer');
  
-    return gulp.src('./dev/style.css')
+    return gulp.src('./src/style.css')
         .pipe(sourcemaps.init())
         .pipe(postcss([ autoprefixer({ browsers: ['last 2 versions'] }) ]))
         .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest('./prod/style.css'));
+        .pipe(gulp.dest('./public'));
 });
