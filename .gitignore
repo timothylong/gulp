@@ -1,6 +1,7 @@
 .DS_Store
 .vs
 node_modules
+package-lock.json
+index.html
 app.min.css
 app.min.js
-package-lock.json
