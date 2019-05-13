@@ -1,3 +1,7 @@
 # Gulp Starter Kit
 
-Basic configuration of gulpfile.js and package.json.
+Basic gulp.js configuration including:
+
+* HTML includes/templating
+* Sass/SCSS & JavaScript processing
+* Livereload
