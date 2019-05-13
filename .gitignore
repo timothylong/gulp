@@ -1,0 +1,5 @@
+.DS_Store
+.vs
+node_modules
+app.min.css
+app.min.js

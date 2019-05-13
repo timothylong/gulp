@@ -1,7 +1,16 @@
 {
   "devDependencies": {
+    "gulp": "*",
+    "gulp-sass": "4.0.2",
+    "gulp-cssimport": "7.0.0",
+    "gulp-clean-css": "4.2.0",
     "gulp-postcss": "latest",
+    "gulp-rename": "1.4.0",
     "gulp-sourcemaps": "latest",
-    "autoprefixer": "latest"
+    "gulp-autoprefixer": "6.1.0",
+    "gulp-file-include": "2.0.1",
+    "gulp-concat": "2.6.1",
+    "gulp-uglify": "3.0.2",
+    "gulp-livereload": "4.0.1"
   }
 }
