@@ -3,3 +3,4 @@
 node_modules
 app.min.css
 app.min.js
+package-lock.json
